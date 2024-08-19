@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Inteligência Artificial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog de Inteligência Artificial</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured-posts">
+            <h2>Posts em Destaque</h2>
+            <article>
+                <h3><a href="#">Post em Destaque 1</a></h3>
+                <p>Resumo do post em destaque 1...</p>
+            </article>
+            <article>
+                <h3><a href="#">Post em Destaque 2</a></h3>
+                <p>Resumo do post em destaque 2...</p>
+            </article>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Posts Recentes</h2>
+            <article>
+                <h3><a href="#">Título do Post Recente</a></h3>
+                <p>Conteúdo do post recente...</p>
+            </article>
+        </section>
+
+        <section class="comments">
+            <h2>Comentários</h2>
+            <form id="commentForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+
+                <label for="comment">Comentário:</label>
+                <textarea id="comment" rows="4" required></textarea>
+
+                <button type="submit">Enviar Comentário</button>
+            </form>
+            <div id="commentSection">
+                <!-- Comentários serão exibidos aqui -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de Inteligência Artificial. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
